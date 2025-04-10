@@ -1,0 +1,150 @@
+.container {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(15, 1fr);
+    grid-column-gap: 22px;
+    grid-row-gap: 1em;
+    grid-row: auto;
+}
+
+.container-no-padding {
+    width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(15, 1fr);
+    grid-column-gap: 22px;
+    grid-row-gap: 1em;
+    grid-row: auto;
+}
+
+.nestedHalf {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 1.5em;
+    grid-row-gap: 1em;
+}
+
+.nestedQuarter {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 1.5em;
+    grid-row-gap: 1em;
+}
+
+.width-1 {
+    border-radius: 4px;
+    color: lightgray;
+    
+    grid-column: span 1;
+}
+
+.width-2 {
+    border-radius: 4px;
+    color: lightgray;
+    
+    grid-column: span 2;
+}
+
+.width-3 {
+    border-radius: 4px;
+    color: lightgray;
+    
+    grid-column: span 3;
+}
+
+.width-4 {
+    border-radius: 4px;
+    color: lightgray;
+    
+    grid-column: span 4;
+}
+
+.width-5 {
+    border-radius: 4px;
+    color: lightgray;
+    
+    grid-column: span 5;
+}
+
+.width-6 {
+    border-radius: 4px;
+    color: lightgray;
+    
+    grid-column: span 6;
+}
+
+.width-7 {
+    border-radius: 4px;
+    color: lightgray;
+    
+    grid-column: span 7;
+}
+
+.width-8 {
+    border-radius: 4px;
+    color: lightgray;
+    
+    grid-column: span 8;
+}
+
+.width-9 {
+    display: flex;
+    border-radius: 4px;
+    color: lightgray;
+    
+    grid-column: span 9;
+}
+
+.width-10 {
+    border-radius: 4px;
+    color: lightgray;
+    
+    grid-column: span 10;
+}
+
+.width-11 {
+    border-radius: 4px;
+    color: lightgray;
+    
+    grid-column: span 11;
+}
+
+.width-12 {
+    border-radius: 4px;
+    color: lightgray;
+    
+    grid-column: span 12;
+}
+
+.width-13 {
+    border-radius: 4px;
+    color: lightgray;
+    
+    grid-column: span 13;
+}
+
+.width-14 {
+    border-radius: 4px;
+    color: lightgray;
+    
+    grid-column: span 14;
+}
+
+.width-15 {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 4px;
+    color: lightgray;
+    
+    grid-column: span 15;
+}
+
+.width-16 {
+    border-radius: 4px;
+    color: lightgray;
+    
+    grid-column: span 16;
+}

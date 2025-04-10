@@ -1,0 +1,82 @@
+.smallBoxs {
+    display: flex;
+    gap: 10px;
+
+}
+
+.smallBoxs .alignment {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 1px 1px;
+    color: lightgray;
+}
+
+.midSection-1 .smallBox {
+    display: grid;
+    background-size: cover;
+    min-height: 150px;
+    justify-content: center;
+    place-items: center;
+    text-align: center;
+}
+
+.smallBoxs i {
+    display: flex;
+    align-items: center;
+    color: black;
+    font: 40px;
+}
+
+.smallBoxs .information {
+    display: flex;
+    justify-content: space-between;
+}
+
+.smallBoxs i {
+    gap: 0.5em;
+    display: flex;
+}
+
+
+.smallBoxs h3 {
+    margin-bottom: 0px;
+    font-size: 32px;
+}
+
+.smallBoxs h1 {
+    font-size: 24.5px;
+    margin-bottom: 0px;
+}
+
+.smallBoxs p {
+    padding: 0px;
+    margin: 0px;
+}
+
+.smallBoxs .interaction {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.smallBoxs i:hover {
+    color: #4DB2EC;
+}
+
+
+.smallBoxs h1:hover {
+    color: #4DB2EC;
+}
+
+.smallBoxs .category {
+    position: absolute;
+    left: 0px;
+    top: 82.5%;
+    color: white;
+    background-color: #222222;
+}
+
+.smallBoxs .alignment{
+    max-width: 240px;
+}

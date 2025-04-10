@@ -1,0 +1,71 @@
+.header {
+    background-color: #4DB2EC;
+    padding-bottom: 20px;
+}
+
+.header button{
+    display: flex;
+    align-items: center;
+}
+
+.header li{
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+
+header .topButtons h1{
+    display: flex;
+    font-size: 16px;
+    gap: 0.5em;
+}
+
+.header .topButtons h1{
+    font-size: 20px;
+}
+.header  h1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+    padding-bottom: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: white;
+}
+
+.header .width-12 {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.5em;
+}
+
+.header .webIcon{
+    display: flex;
+    gap: 0.5em;
+}
+
+.header .webIcon i {
+    font-size: 50px;
+}
+
+.header i {
+    color: white;
+}
+
+.header .topButtons i{
+    font-size: 16px;
+}
+
+.header .topButtons {
+    display: flex;
+}
+
+.header h1:hover{
+    text-decoration: underline;
+}
+
+.header ul{
+    display: flex;
+    align-items: center;
+}

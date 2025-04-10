@@ -1,0 +1,67 @@
+body {
+    font-family: "Open Sans", serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.5em;
+    background-color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-weight: 700px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: black;
+    font-size: 30.5px;
+    padding-bottom: 5px;
+    line-height: 30PX;
+}
+
+h2 {
+    font-size: 18px;
+    padding-bottom: 5px;
+    margin: 0px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+h5 {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+p {
+    font-size: 20px;
+    color: #91857D;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+}
+
+button {
+    border: 0px;
+    border-radius: 4px;
+    background-color: #4DB2EC;
+    color: white;
+}
+
+.blue{
+    color: #4DB2EC;
+}
+
+.width-15 h1{
+    margin: 0px;
+    padding: 0px;
+}
+
+.width-15 .container{
+    padding: 0px;
+}
+.container{
+    padding-bottom: 5px;
+}

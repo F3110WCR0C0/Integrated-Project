@@ -1,0 +1,127 @@
+.mediumBoxs .alignment {
+    display: flex;
+}
+
+.mediumBoxs {
+    display: flex;
+    max-height: fit-content;
+    gap: 1em;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.mediumBoxs .alignment {
+    border-radius: 4px;
+    box-shadow: 1px 1px;
+    color: lightgray;
+}
+
+.mediumBoxs .mediumBox {
+    display: grid;
+    background-size: cover;
+    min-height: 150px;
+    justify-content: center;
+    place-items: center;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.mediumBoxs .titleIcon {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mediumBoxs i {
+    display: flex;
+    align-items: center;
+    color: black;
+    gap: 0.5em;
+    font: 40px;
+}
+
+.mediumBoxs .information {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.mediumBoxs .content {
+    padding-left: 0.5em;
+    display: flex;
+    gap: 0.8em;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 3;
+}
+
+.mediumBoxs h3 {
+    padding: 0px;
+    margin-bottom: 0px;
+    font-size: 32px;
+}
+
+.mediumBoxs h1 {
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+.mediumBoxs p {
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+.mediumBoxs i:hover {
+    color: #4DB2EC;
+}
+
+.mediumBoxs h1:hover {
+    color: #4DB2EC;
+}
+
+.mediumBoxs p:hover {
+    text-decoration: underline;
+}
+
+
+.mediumBoxs .category {
+    box-shadow: none;
+    position: absolute;
+    left: 0px;
+    top: 84%;
+    color: white;
+    background-color: #222222;
+}
+
+.section-1 .mediumBoxs .option-2 .category {
+    position: absolute;
+    left: 0px;
+    top: 82.9%;
+    color: white;
+    background-color: #222222;
+}
+
+
+.section-1 .mediumBoxs .option-3 .category {
+    position: absolute;
+    left: 0px;
+    top: 82.9%;
+    color: white;
+    background-color: #222222;
+}
+
+.section-2 .mediumBoxs .option-4 .category {
+    position: absolute;
+    left: 0px;
+    top: 83%;
+    color: white;
+    background-color: #222222;
+}
+
+.section-2 .mediumBoxs .option-5 .category {
+    position: absolute;
+    left: 0px;
+    top: 83%;
+    color: white;
+    background-color: #222222;
+}

@@ -1,0 +1,39 @@
+.midSection-1 {
+    background-color: aliceblue;
+}
+
+.midSection-1 .container {
+    display: flex;
+}
+
+.midSection-1 .option-1 {
+    position: relative;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+}
+
+.midSection-1 .option-2 {
+    position: relative;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+}
+
+
+.midSection-1 .option-3 {
+    position: relative;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+}
+
+
+.midSection-1 .option-4 {
+    position: relative;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+}
+
+.midSection-1 .option-5 {
+    position: relative;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+}
